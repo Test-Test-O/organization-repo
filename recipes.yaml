@@ -1,7 +1,6 @@
 recipes:
   vector_canoe:
     name: "Vector CANoe"
-    description: "Tool for simulating and testing automotive network protocols like CAN, LIN, FlexRay."
     versions:
       v1.0:
         playbook: "playbooks/vector_canoe-v1.0.yml"
