@@ -23,6 +23,7 @@ recipes:
           minimum_ram_gb: "16"
   canoe:
     name: "CANoe"
+    description: "I am canoe package"
     versions:
       v1.0:
         playbook: "playbooks/canoe-v1.0.yml"
