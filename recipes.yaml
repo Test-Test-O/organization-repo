@@ -1,7 +1,7 @@
 recipes:
   vector_canoe_tmp:
     name: "Vector CANoe"
-    descriptions: "Tool for simulating and testing automotive network protocols like CAN, LIN, FlexRay."
+    description: "Tool for simulating and testing automotive network protocols like CAN, LIN, FlexRay."
     supported_targets:
       - wb
       - wb_ComputeServer
