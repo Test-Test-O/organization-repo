@@ -17,7 +17,6 @@ recipes:
           supported_arch:
             - x86_64
             - arm64
-            - fdswerr
           minimum_ram_gb: "8"
       v2.0:
         playbook: "playbooks/vector_canoe-v2.0.yml"
@@ -25,6 +24,10 @@ recipes:
           supported_arch:
             - x86_64
             - arm64
+          minimum_ram_gb: "8"
+      v2.1:
+        playbook: "playbooks/vector_canoe-v2.1.yml"
+        metadata:
           minimum_ram_gb: "8"
   canoe:
     name: "CANoe"
