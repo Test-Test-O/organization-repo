@@ -1,5 +1,5 @@
 recipes:
-  vector_canoe:
+  vector_canoe_tmp:
     name: "Vector CANoe"
     supported_targets:
       - wb
