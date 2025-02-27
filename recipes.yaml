@@ -25,8 +25,6 @@ recipes:
             - x86_64
             - arm64
           minimum_ram_gb: "8"
-      v3.0:
-        playbook: "playbooks/vector_canoe-v3.0.yml"
   canoe:
     name: "CANoe"
     description: "I am canoe package"
