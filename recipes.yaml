@@ -10,6 +10,13 @@ recipes:
       - pipeline_gh
       - pipeline_gl
     versions:
+      v1.0:
+        playbook: "playbooks/vector_canoe-v1.0.yml"
+        metadata:
+          supported_arch:
+            - x86_64
+            - arm64
+          minimum_ram_gb: "8"
       v2.0:
         playbook: "playbooks/vector_canoe-v2.0.yml"
         metadata:
@@ -20,4 +27,19 @@ recipes:
       v3.0:
         playbook: "playbooks/vector_canoe-v3.0.yml"
         metadata:
-          minimum_ram_gb: "16" 
+          minimum_ram_gb: "16"
+  canoe:
+    name: "CANoe"
+    description: "I am canoe package"
+    versions:
+      v1.0:
+        playbook: "playbooks/canoe-v1.0.yml"
+      v2.0:
+        playbook: "playbooks/canoe-v2.0.yml"
+        metadata:
+          supported_arch:
+            - x86_64
+      v3.0:
+        playbook: "playbooks/canoe-v3.0.yml"
+        metadata:
+          minimum_ram_gb: "16"        
