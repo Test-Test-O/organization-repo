@@ -29,7 +29,7 @@ recipes:
     name: "CANoe"
     description: "I am canoe package"
     versions:
-      v1.0:
+      v1.0.0.0:
         playbook: "playbooks/canoe-v1.0.yml"
       v2.0:
         playbook: "playbooks/canoe-v2.0.yml"
