@@ -11,7 +11,7 @@ recipes:
       - pipeline_gh
       - pipeline_gl
     versions:
-      1.0:
+      1.0.0:
         playbook: "playbooks/vector_canoe-v1.0.yml"
         metadata:
           supported_arch:
