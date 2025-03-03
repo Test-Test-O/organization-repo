@@ -39,6 +39,8 @@ recipes:
         playbook: "playbooks/vector_canoe-v3.0.yml"
       v1.2.3-alpha+build:
         playbook: "playbooks/vector_canoe-v3.0.yml"
+      1.2.3.4:
+        playbook: "playbooks/vector_canoe-v3.0.yml"
   canoe:
     name: "CANoe"
     description: "I am canoe package"
