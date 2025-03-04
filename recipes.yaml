@@ -49,8 +49,4 @@ recipes:
         playbook: "playbooks/canoe-v2.0.yml"
         metadata:
           supported_arch:
-            - x86_64
-      v3.0:
-        playbook: "playbooks/canoe-v3.0.yml"
-        metadata:
-          minimum_ram_gb: "16"      
+            - x86_64      
