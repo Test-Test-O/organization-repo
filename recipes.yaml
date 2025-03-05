@@ -1,6 +1,6 @@
 recipes:
   vector_canoe:
-    name: "Vector CANoe"
+    name: "qwerty"
     description: "Tool for simulating and testing automotive network protocols like CAN, LIN, FlexRay."
     supported_targets:
       - wb
