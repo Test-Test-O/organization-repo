@@ -31,8 +31,6 @@ recipes:
         playbook: "playbooks/vector_canoe-v3.0.yml"
       1.0.0-alpha:
         playbook: "playbooks/vector_canoe-v3.0.yml"
-      2.0.0+build1234:
-        playbook: "playbooks/vector_canoe-v3.0.yml"
       v2.1.0-rc+build5678:
         playbook: "playbooks/vector_canoe-v3.0.yml"
       1.123.123:
