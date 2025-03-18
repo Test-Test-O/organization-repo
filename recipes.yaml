@@ -36,21 +36,6 @@ recipes:
         playbook: "playbooks/vector_canoe-v3.0.yml"
       v1.2.3-alpha+build:
         playbook: "playbooks/vector_canoe-v3.0.yml"
-  canoe:
-    name: "CANoe"
-    description: "I am canoe package"
-    versions:
-      v1.0.0:
-        playbook: "playbooks/canoe-v1.0.yml"
-      v2.0:
-        playbook: "playbooks/canoe-v2.0.yml"
-        metadata:
-          supported_arch:
-            - x86_64
-      v3.0:
-        playbook: "playbooks/canoe-v3.0.yml"
-        metadata:
-          minimum_ram_gb: "16"
   tailscale:
     name: "Tailscale"
     description: "Installs tailscale and connects to tailnet using provided authkey"
@@ -68,4 +53,18 @@ recipes:
               count: 1
             - name: "hostname"
               description: "The name of the host"
-
+  canoe:
+    name: "CANoe"
+    description: "I am canoe package"
+    versions:
+      v1.0.0:
+        playbook: "playbooks/canoe-v1.0.yml"
+      v2.0:
+        playbook: "playbooks/canoe-v2.0.yml"
+        metadata:
+          supported_arch:
+            - x86_64
+      v3.0:
+        playbook: "playbooks/canoe-v3.0.yml"
+        metadata:
+          minimum_ram_gb: "16"
