@@ -50,4 +50,21 @@ recipes:
       v3.0:
         playbook: "playbooks/canoe-v3.0.yml"
         metadata:
-          minimum_ram_gb: "16"      
+          minimum_ram_gb: "16"
+  tailscale:
+    name: "Tailscale"
+    description: "Installs tailscale and connects to tailnet using provided authkey"
+    versions:
+      v1.0:
+        playbook: "playbooks/optional/tailscale_setup-v1.0.yaml"
+        metadata:
+          supported_arch:
+            - x86_64
+            - arm64
+          minimum_ram_gb: 1
+          options:
+            - name: "auth_key"
+              description: "Authentication key to join tailscale mesh"
+            - name: "hostname"
+              description: "The name of the host"
+
